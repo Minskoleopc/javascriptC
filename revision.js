@@ -219,7 +219,7 @@ if(j1 > j2){
     console.log('j1 is greater')
 }
 else {
-    console.log('j2 is greater')
+    console.log('j2 is greater.')
 }
 
 j1 > j1 ? console.log('j1 is greater'):console.log('j2 is greater')

@@ -65,5 +65,52 @@ console.log(q12)
 console.log(city5)
 
 
+// slice()
+
+let city6   =  "chandrapur"
+
+// 0    1    2    3    4    5   6   7   8    9 
+// c    h    a    n    d    r   a   p   u    r
+// -10  -9   -8   -7   -6   -5  -4  -3   -2   -1
+//city6.slice(startIndex, endIndex)
+
+let q111 = city6.slice(3)
+console.log(q111)
+console.log(city6.slice(2,9))
+console.log(city6.slice(3,-2))
+console.log(city6.slice(-10,8))
+console.log(city6.slice(-10,-3))
+console.log(city6.slice(-3))
+console.log(city6.slice(-1,-3))
+
+// split()
+let info =  ["chinmay","deshpande",7709192441]
+let q222 = info.join('-')
+console.log(q222)
+
+let q333 =  q222.split('-')
+console.log(q333)
+
+// chartAt()
+
+let  namey = "chinmay"
+// 0 1 2 3 4 5 6
+// c h i n m a y
+let q444 = namey.charAt(2)
+console.log(q444)
+
+// substring()
+
+let vegetable = "cauliflower"
+//  0   1  2  3  4   5  6  7  8  9  10
+//  c   a  u  l  i   f  l  o  w  e  r
+let vegetableA =  vegetable.substring(2,5)
+console.log(vegetableA)
+
+
+
+
+
+
 
 
